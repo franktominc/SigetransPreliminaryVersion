@@ -12,5 +12,7 @@ case class CarAccident(CityCode : Short,
                        Id: BigInt,
                        date: DateTime,
                        address :Address,
-                      statisticData: StatisticData
+                      statisticData: StatisticData,
+                       involved :List[Involved],
+                       vehicles :List[Vehicle]
                       )
