@@ -8,5 +8,5 @@ case class Address(street: String,
                    crossRoad: String,
                    neighborhood: Neighborhood,
                    reference: String,
-                   geoLocation: Seq
+                   geoLocation: GeoLocation
                    )
