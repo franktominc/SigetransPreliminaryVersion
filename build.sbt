@@ -1,4 +1,4 @@
-name := "untitled"
+name := "Sigetrans"
 
 version := "1.0"
 
