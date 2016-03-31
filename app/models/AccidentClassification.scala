@@ -5,5 +5,4 @@ package models
   */
 sealed abstract class AccidentClassification(id: Short,
                                   Classification: String) {
-
 }

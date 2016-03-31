@@ -7,8 +7,7 @@ import org.joda.time.DateTime
 /**
   * Created by franktominc on 19/02/16.
   */
-case class CarAccident(CityCode : Short,
-                       PartnerCode: Short,
+case class CarAccident(PartnerCode: Short,
                        Id: BigInt,
                        date: DateTime,
                        address :Address,
